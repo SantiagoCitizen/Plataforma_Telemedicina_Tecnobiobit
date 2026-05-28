@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Centro de Ayuda - Soporte Técnico</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="header">
+        <img src="../Imagenes/logo.png" alt="Logo" class="header-logo">
+        <div class="titulo">TecnoBiobit</div>
+        <div class="header-buttons">
+            <button class="btn-secundario">Perfil</button>
+            <button class="btn-secundario">Cerrar Sesión</button>
+        </div>
+    </div>
+
+    <div class="contenedor-principal">
+        <div class="sidebar">
+            <button class="btn-menu">Membresía</button>
+            <button class="btn-menu">Gestión de Citas</button>
+            <button class="btn-menu">Recetas médicas</button>
+            <button class="btn-menu seleccionado">Ayuda</button>
+        </div>
+
+        <div class="contenido">
+            <h2 class="seccion-titulo">Centro de ayuda</h2>
+
+            <div class="contenedor-tabs">
+                <button class="tab">Preguntas Frecuentes</button>
+                <div class="flechas-tab">▲<br>▼</div>
+                <button class="tab seleccionado">Soporte Técnico:</button>
+                <div class="flechas-tab">▲<br>▼</div>
+            </div>
+
+            <div class="formulario-ayuda">
+                <div class="form-item">
+                    <label>Nombre completo:</label>
+                    <input type="text" placeholder="Nombre del médico">
+                </div>
+                <div class="form-item">
+                    <label>Correo electrónico:</label>
+                    <input type="email" placeholder="Correo del médico en el cual podrá recibir una respuesta">
+                </div>
+                <div class="form-item">
+                    <label>Categoría del problema:</label>
+                    <input type="text" placeholder="Financiero, Técnico, Administrativo, etc.">
+                </div>
+                <div class="form-item">
+                    <label>Descripción detallada:</label>
+                    <textarea placeholder="Explicación clara del problema con pasos que llevaron al error"></textarea>
+                </div>
+                <div class="form-item fecha">
+                    <label>Fecha en que ocurrió:</label>
+                    <div class="fecha-campos">
+                        <input type="text" placeholder="Día">
+                        <input type="text" placeholder="Mes">
+                        <input type="text" placeholder="Año">
+                    </div>
+                </div>
+                <div class="botones-accion">
+                    <button class="btn-principal">Enviar Reporte</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,143 @@
+/* Fuente y reset básico */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fdf2ec;
+}
+
+  /* Encabezado */
+header {
+    background-color: #0c2e67;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 60px;
+    margin-right: 15px;
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.top-buttons button {
+    background-color: white;
+    color: #0c2e67;
+    border: none;
+    margin-left: 15px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.top-buttons .bell-icon {
+    font-size: 20px;
+}
+
+  /* Layout general */
+.main-container {
+    display: flex;
+}
+
+  /* Menú lateral */
+.sidebar {
+    background-color: #fff;
+    padding: 30px 15px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sidebar button {
+    background-color: #11326f;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+    background-color: #1c3c87;
+}
+
+  /* Contenedor principal del formulario */
+.agenda-box {
+    background-color: #e9f2f6;
+    margin: 40px auto;
+    padding: 30px 40px;
+    border-radius: 25px;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.agenda-box h2 {
+    color: #0984e3;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+  /* Formulario */
+.agenda-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.agenda-form label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.agenda-form input,
+.agenda-form select {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff6f2;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.agenda-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.fecha-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #0c2e67;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1c3c87;
+}

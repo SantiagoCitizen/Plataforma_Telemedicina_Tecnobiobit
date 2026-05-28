@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff4f0;
+}
+
+header {
+    background-color: #0b2a61;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-logo {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.header-buttons button {
+    margin-left: 15px;
+    padding: 8px 12px;
+    background-color: white;
+    color: #0b2a61;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #fff;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    min-width: 200px;
+    height: 800px;
+}
+
+.sidebar button {
+    background-color: #0b2a61;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sidebar button.active {
+    background-color: #003f8a;
+}
+
+.main-content {
+    flex: 1;
+    padding: 40px;
+    background-color: #e6f0f5;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 300px;
+}
+
+h2 {
+    color: #0b2a61;
+}
+
+.switch-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.switch-buttons button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #0b2a61;
+    color: white;
+}
+
+.recetas-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.receta {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.receta input[type="text"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.tags span {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 6px 12px;
+    background-color: #d3e2f0;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+.acciones {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.acciones button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0b2a61;
+    color: white;
+    cursor: pointer;
+}

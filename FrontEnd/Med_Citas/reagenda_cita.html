@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reagendar Cita</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="header">
+        <img src="../Imagenes/logo.png" alt="Logo" class="header-logo">
+        <h1 class="titulo">TecnoBiobit</h1>
+        <div class="header-buttons">
+            <button class="btn-secundario">Perfil</button>
+            <button class="btn-secundario">Cerrar Sesión</button>
+        </div>
+    </div>
+
+    <div class="contenedor-principal">
+        <div class="sidebar">
+            <button class="btn-menu">Membresia</button>
+            <button class="btn-menu">Gestión de Citas</button>
+            <button class="btn-menu">Recetas médicas</button>
+            <button class="btn-menu">Ayuda</button>
+        </div>
+
+        <div class="contenido">
+            <h2 class="seccion-titulo">Reagendar cita</h2>
+
+            <div class="contenedor-form">
+                <div class="form-item">
+                    <label for="motivo">Motivo de Reagendado:</label>
+                    <input type="text" id="motivo" placeholder="otro">
+                </div>
+
+                <div class="form-item">
+                    <label>Fecha seleccionada:</label>
+                    <input type="number" placeholder="Día">
+                    <input type="number" placeholder="Mes">
+                    <input type="number" placeholder="Año">
+                    <span style="margin: 0 10px; font-weight: bold;">Hora:</span>
+                    <input type="number" placeholder="Hora">
+                    <input type="number" placeholder="Min">
+                </div>
+
+                <div class="botones-accion">
+                    <button class="btn-principal">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Métodos de Pago - TecnoBiobit</title>
+  <link rel="stylesheet" href="stylescita2.css" />
+</head>
+<body>
+<header>
+    <div class="logo-container">
+    <img src="../Imagenes/logo.png" alt="Logo" class="header-logo" />
+    <h1 class="titulo">TecnoBiobit</h1>
+    </div>
+    <div class="top-buttons">
+    <button><span class="bell-icon">🔔</span></button>
+    <button>Perfil</button>
+    <button>Cerrar Sesión</button>
+    </div>
+</header>
+
+<div class="main-container">
+    <aside class="sidebar">
+    <button>Agendar Cita</button>
+    <button>Consultar/Gestionar cita</button>
+    <button>Recetas médicas</button>
+    <button>Ayuda</button>
+    </aside>
+
+    <section class="agenda-box">
+    <h2>Métodos de pago</h2>
+
+    <form class="agenda-form">
+        <label>Opciones disponibles</label>
+        <select>
+        <option>Tarjeta crédito, débito (Visa, MasterCard, etc.)</option>
+        </select>
+
+        <label>Nombre del titular</label>
+        <input type="text" placeholder="">
+
+        <label>Concepto de Pago</label>
+        <input type="text" placeholder="">
+
+        <label>Número de tarjeta</label>
+        <input type="text" placeholder="">
+
+        <label>Fecha de vencimiento:</label>
+        <div class="fecha-container">
+        <input type="text" placeholder="Mes">
+        <input type="text" placeholder="Año">
+        </div>
+
+        <label>Código de seguridad:</label>
+        <div class="fecha-container">
+        <input type="text" placeholder="CVV">
+        <span>Monto:</span>
+        <input type="text" placeholder="$">
+        </div>
+
+        <label>Dirección de Facturación:</label>
+        <input type="text" placeholder="">
+
+        <div style="margin: 10px 0;">
+        <input type="checkbox" id="guardar">
+        <label for="guardar">Guardar datos de la tarjeta</label>
+        </div>
+
+        <div class="form-buttons">
+        <button type="submit" class="btn">Confirmar Pago</button>
+        </div>
+    </form>
+    </section>
+</div>
+</body>
+</html>

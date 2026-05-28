@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Datos de Cuenta</title>
+<link rel="stylesheet" href="styles2.css">
+<script>
+    function togglePassword() {
+    const passFields = document.querySelectorAll('.password');
+    passFields.forEach(field => {
+        field.type = field.type === "password" ? "text" : "password";
+    });
+    }
+</script>
+</head>
+<body>
+<header>
+    <div class="logo"></div>
+    <h1>Registro de Usuario</h1>
+</header>
+
+<main>
+    <form class="formulario">
+    <h2>Datos de Cuenta</h2>
+
+    <input type="email" placeholder="Correo Electrónico" required>
+    <input type="password" placeholder="Contraseña" class="password" required>
+    <input type="password" placeholder="Confirmar contraseña" class="password" required>
+
+    <label>
+        <input type="checkbox" onclick="togglePassword()">
+        Mostrar contraseña
+    </label>
+
+    <button type="submit" class="btn-siguiente">Finalizar Registro</button>
+    </form>
+</main>
+</body>
+</html>
+

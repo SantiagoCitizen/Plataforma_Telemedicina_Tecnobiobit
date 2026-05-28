@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TecnoBiobit</title>
+<link rel="stylesheet" href="stylesconsulta.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+    <img src="../Imagenes/logo.png" alt="Logo" class="header-logo" />
+    <h1>TecnoBiobit</h1>
+    </div>
+    <div class="header-buttons">
+    <button>Perfil</button>
+    <button>Cerrar Sesión</button>
+    </div>
+</header>
+
+<div class="container">
+    <nav class="sidebar">
+    <button>Agendar Cita</button>
+    <button class="active">Consultar/Gestionar cita</button>
+    <button>Recetas médicas</button>
+    <button>Ayuda</button>
+    </nav>
+
+    <main class="main-content">
+    <h2>Consultar/Gestionar cita</h2>
+    <div class="switch-buttons">
+        <button class="active">Consultar cita</button>
+        <button>Gestionar cita</button>
+    </div>
+
+    <form class="formulario">
+        <input type="text" placeholder="Nombre del médico">
+        <input type="text" placeholder="Especialidad">
+
+        <div class="fecha-hora">
+        <label>Fecha seleccionada:</label>
+        <input type="text" placeholder="Día / Mes / Año">
+        <label>Hora:</label>
+        <input type="text" placeholder="Hora - Minutos">
+        </div>
+
+        <div class="estado">
+        <label>Estado de la cita:</label>
+        <div class="tags">
+            <span>Agendada</span>
+            <span>Pendiente</span>
+            <span>Realizada</span>
+        </div>
+        </div>
+
+        <div class="metodo">
+        <label>Método de consulta:</label>
+        <input type="text" placeholder="Videollamada / Chat en línea">
+        </div>
+
+        <button type="submit" class="aceptar">Aceptar</button>
+    </form>
+    </main>
+</div>
+</body>
+</html>
+

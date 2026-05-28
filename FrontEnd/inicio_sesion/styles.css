@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fef5f0;
+}
+
+.login-container {
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #162f5d;
+    padding: 20px;
+    margin-top: 300px;
+}
+
+.login-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:white;
+}
+
+.login-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.logo {
+    width: 30%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 900px;
+    object-fit: contain;
+}
+
+.form {
+    width: 65%;
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form input {
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 0;
+    margin-top: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+}
+
+button.primary {
+    background-color: #162f5d;
+    color: white;
+}
+
+button.secondary {
+    background-color: #fef5f0;
+    color: #162f5d;
+    border: 1px solid #162f5d;
+}
+/* HEADER ESTILO */
+.main-header {
+    background-color: #162f5d;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-logo {
+    height: 40px;
+    width: auto;
+}
+
+.platform-name {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

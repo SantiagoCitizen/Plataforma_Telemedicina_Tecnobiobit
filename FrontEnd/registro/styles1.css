@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fef4f0;
+}
+
+header {
+    background-color: #0c2d5c;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    background-image: url('../Imagenes/logo.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.formulario {
+    background-color: #0c2d5c;
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input[type="text"], select {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.input-doble, .input-triple {
+    display: flex;
+    gap: 10px;
+}
+
+.input-triple select {
+    flex: 1;
+}
+
+.label-fecha,
+.label-genero,
+.label-direccion {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn-siguiente {
+    display: inline-block;
+    background-color: #f5f0ec; 
+    color: #0d2c59;            
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;     
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-siguiente:hover {
+    background-color: #e0dcd7;
+}
+
+

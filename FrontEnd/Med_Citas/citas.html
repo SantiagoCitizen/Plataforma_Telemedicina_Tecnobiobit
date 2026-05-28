@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Citas - Médico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="../Imagenes/logo.png" alt="Logo" class="header-logo">
+        <h1 class="titulo">TecnoBiobit</h1>
+        <div class="header-buttons">
+            <button class="btn-secundario">Perfil</button>
+            <button class="btn-secundario">Cerrar Sesión</button>
+        </div>
+    </header>
+
+    <main class="contenedor-principal">
+        <aside class="sidebar">
+            <button class="btn-menu">Membresía</button>
+            <button class="btn-menu seleccionado">Gestión de Citas</button>
+            <button class="btn-menu">Recetas médicas</button>
+            <button class="btn-menu">Ayuda</button>
+        </aside>
+
+        <section class="contenido">
+            <h2 class="seccion-titulo">Gestión de citas</h2>
+
+            <div class="contenedor-tabs">
+                <button class="tab activo">Consultar Agenda</button>
+                <div class="flechas-tab">
+                    ▲<br>▼
+                </div>
+            </div>
+
+            <div class="form-item calendario">
+                <label>Calendario</label>
+                <table class="tabla-calendario">
+                    <thead>
+                        <tr>
+                            <th>Lun</th><th>Mar</th><th>Mié</th><th>Jue</th><th>Vie</th><th>Sáb</th><th>Dom</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+                        <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+                        <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+                        <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
+                        <tr><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td><td></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+
+                <div class="form-item">
+                    <label>Fecha de emisión:</label>
+                    <input type="text" placeholder="Día / Mes / Año">
+                    <label>Hora:</label>
+                    <input type="text" placeholder="Hora - Minutos">
+                </div>
+
+                <div class="form-item">
+                    <label>Nombre del Paciente:</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-item">
+                    <label>Detalles / motivos Consulta:</label>
+                    <textarea rows="3"></textarea>
+                </div>
+
+                <div class="botones-accion">
+                    <button class="btn-principal">Aceptar cita</button>
+                    <button class="btn-principal">Reagendar cita</button>
+                    <button class="btn-principal">Ir al Menú</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestionar Cita - TecnoBiobit</title>
+<link rel="stylesheet" href="stylesgestion.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+    <img src="../Imagenes/logo.png" alt="Logo" class="header-logo" />
+    <h1>TecnoBiobit</h1>
+    </div>
+    <div class="header-buttons">
+    <button>Perfil</button>
+    <button>Cerrar Sesión</button>
+    </div>
+</header>
+
+<div class="container">
+    <nav class="sidebar">
+    <button>Agendar Cita</button>
+    <button class="active">Consultar/Gestionar cita</button>
+    <button>Recetas médicas</button>
+    <button>Ayuda</button>
+    </nav>
+
+    <main class="main-content">
+    <h2>Consultar/Gestionar cita</h2>
+    <div class="switch-buttons">
+        <button>Consultar cita</button>
+        <button class="active">Gestionar cita</button>
+    </div>
+
+    <div class="gestion-cita">
+        <p><strong>Reagendar cita en los Horarios disponibles:</strong></p>
+        <div class="calendario">
+        <p class="mes">MARZO 2022</p>
+        <div class="dias">
+            <span>L M M J V S D</span>
+            <div class="cuadricula">
+            <!-- Días representativos (puedes hacer esto dinámico con JS si quieres) -->
+            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span>
+            <span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span>
+            <!-- etc... -->
+            </div>
+        </div>
+        </div>
+
+        <input type="text" placeholder="Motivo de cancelación" class="motivo">
+
+        <div class="botones-acciones">
+        <button>Cancelar cita</button>
+        <button>Realizar pago</button>
+        <button>Acceder a la Cita</button>
+        </div>
+    </div>
+    </main>
+</div>
+</body>
+</html>

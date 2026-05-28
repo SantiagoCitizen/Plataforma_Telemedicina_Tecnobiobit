@@ -1,0 +1,129 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fef4f0;
+}
+
+  /* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0e2e61;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+}
+
+.header-buttons button {
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+  /* Layout */
+.container {
+    display: flex;
+}
+
+  /* Sidebar */
+.sidebar {
+    width: 200px;
+    height: 900px;
+    background-color: #fff;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sidebar button {
+    padding: 12px;
+    background-color: #152d54;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+  /* Main Content */
+.content {
+    flex: 1;
+    background-color: #e9f2f6;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 500px;
+}
+
+.content h2 {
+    color: #0082c9;
+}
+
+  /* Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input,
+.form select {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    width: 100%;
+}
+
+.calendar {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: gray;
+}
+
+.date-fields {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.date-fields input {
+    width: 80px;
+}
+
+  /* Buttons */
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.form-buttons button {
+    background-color: #0e2e61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fef4f2;
+}
+
+.header {
+    background-color: #0a2a61;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.header-logo {
+    width: 60px;
+}
+
+.titulo {
+    flex: 1;
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.header-buttons .btn-secundario {
+    margin-left: 15px;
+    background-color: white;
+    color: #0a2a61;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.contenedor-principal {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #fff;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 200px;
+    height: 800px;
+}
+
+.btn-menu {
+    background-color: #153b80;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.seleccionado {
+    background-color: #1e4db3;
+}
+
+.contenido {
+    background-color: #e9f2f5;
+    flex-grow: 1;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.seccion-titulo {
+    font-size: 24px;
+    color: #1172c4;
+    margin-bottom: 30px;
+}
+
+.tarjeta-membresia {
+    background-color: #0a2a61;
+    color: white;
+    padding: 25px 30px;
+    border-radius: 25px;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo-membresia {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.tarjeta-membresia h3 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.precio {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.tarjeta-membresia ul {
+    list-style: disc;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn-obtener {
+    background-color: white;
+    color: #0a2a61;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}

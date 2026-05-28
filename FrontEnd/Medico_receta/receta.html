@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Médicas - TecnoBiobit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="../Imagenes/logo.png" alt="Logo" class="header-logo">
+        <h1 class="titulo">TecnoBiobit</h1>
+        <div class="header-buttons">
+            <button class="btn-secundario">Perfil</button>
+            <button class="btn-secundario">Cerrar Sesión</button>
+        </div>
+    </header>
+
+    <div class="contenedor-principal">
+        <aside class="sidebar">
+            <button class="btn-menu">Membresía</button>
+            <button class="btn-menu">Gestión de Citas</button>
+            <button class="btn-menu seleccionado">Recetas médicas</button>
+            <button class="btn-menu">Ayuda</button>
+        </aside>
+
+        <main class="contenido">
+            <h2 class="seccion-titulo">Recetas médicas</h2>
+
+            <div class="contenedor-form">
+                <div class="form-item">
+                    <label>Datos médico:</label>
+                    <input type="text" placeholder="Nombre del doctor, especialidad, cédula.">
+                </div>
+                <div class="form-item">
+                    <label>Fecha:</label>
+                    <input type="date">
+                </div>
+                <div class="form-item">
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Nombre del paciente">
+                </div>
+                <div class="form-item">
+                    <label>Se solicita:</label>
+                    <textarea rows="5" placeholder="Nombre del medicamento, prescripción, duración del tratamiento médico e indicaciones generales."></textarea>
+                </div>
+                <div class="form-item">
+                    <label>Firma:</label>
+                    <input type="text" placeholder="Sello y firma del médico">
+                </div>
+                <div class="form-item">
+                    <label>Contacto:</label>
+                    <input type="text" placeholder="Correo y teléfono de contacto del médico.">
+                </div>
+                <div class="botones-accion">
+                    <button class="btn-principal">Enviar Receta</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

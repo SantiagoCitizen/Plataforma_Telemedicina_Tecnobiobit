@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soporte Técnico - TecnoBiobit</title>
+<link rel="stylesheet" href="stylessoporte.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+    <img src="../Imagenes/logo.png" alt="Logo" class="header-logo" />
+    <h1>TecnoBiobit</h1>
+    </div>
+    <div class="header-buttons">
+    <button>Perfil</button>
+    <button>Cerrar Sesión</button>
+    </div>
+</header>
+
+<div class="container">
+    <nav class="sidebar">
+    <button>Agendar Cita</button>
+    <button>Consultar/Gestionar cita</button>
+    <button>Recetas médicas</button>
+    <button class="active">Ayuda</button>
+    </nav>
+
+    <main class="main-content">
+    <h2>Centro de ayuda</h2>
+
+    <div class="switch-buttons">
+        <button>Preguntas Frecuentes</button>
+        <button class="active">Soporte Técnico:</button>
+    </div>
+
+    <form class="soporte-form">
+        <fieldset>
+        <legend>Datos de Usuario</legend>
+        <label>Nombre completo:</label>
+        <input type="text" placeholder="Nombre del paciente">
+
+        <label>Correo electrónico:</label>
+        <input type="email" placeholder="Correo del paciente para recibir una respuesta">
+        </fieldset>
+
+        <fieldset>
+        <legend>Detalles del Problema</legend>
+        <label>Categoría del problema:</label>
+        <input type="text" placeholder="Financiero, Técnico, Administrativo, etc.">
+
+        <label>Descripción detallada:</label>
+        <textarea placeholder="Explicación clara del problema con pasos que llevaron al error"></textarea>
+
+        <label>Fecha en que ocurrió:</label>
+        <div class="fecha">
+            <input type="text" placeholder="Día">
+            <input type="text" placeholder="Mes">
+            <input type="text" placeholder="Año">
+        </div>
+        </fieldset>
+
+        <button type="submit">Enviar Reporte</button>
+    </form>
+    </main>
+</div>
+</body>
+</html>
